@@ -27,14 +27,38 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 
+//Componentes do Projeto
+import { NavComponent } from './Components/nav/nav.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    // Forms
+    FormsModule,
+    ReactiveFormsModule,
+    // Requisições http
+    HttpClientModule,
+    // Angular Material
+    MatFormFieldModule,
+    MatPaginatorModule,
+    MatCheckboxModule,
+    MatSnackBarModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatSelectModule,
+    MatInputModule,
+    MatRadioModule,
+    MatTableModule,
+    MatIconModule,
+    MatListModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
