@@ -30,12 +30,14 @@ import { MatCardModule } from '@angular/material/card';
 //Componentes do Projeto
 import { NavComponent } from './Components/nav/nav.component';
 import { HomeComponent } from './Components/home/home.component';
+import { HeaderComponent } from './Components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
